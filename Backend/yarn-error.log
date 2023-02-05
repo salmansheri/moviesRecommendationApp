@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\salman\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemon
+
+PATH: 
+  C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\salman\AppData\Local\Microsoft\WindowsApps;C:\Users\salman\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\salman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\salman\AppData\Roaming\npm;C:\Python311;C:\Program Files\nodejs;C:\Python311\Scripts;C:\Program Files\Python311;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\manoj\MovieRecommendationApp\Project\Backend\package.json: Unexpected non-whitespace character after JSON at position 174
+      at JSON.parse (<anonymous>)
+      at C:\Users\salman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\salman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\salman\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "Backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "salman sheriff",
+    "license": "MIT",
+     "scripts": {
+      "start": "nodemon index.js"
+     }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
